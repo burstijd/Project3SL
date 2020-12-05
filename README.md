@@ -18,8 +18,8 @@ This program allows you to convert dollars to six other currencies all at once
    
 # Notes
 
-All conversion rates are based on amounts from December 2020
-All conversion rates came from Google
+All conversion rates are based on amounts from December 2020.
+All conversion rates came from Google.
 
 # References
 
