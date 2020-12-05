@@ -15,22 +15,22 @@ window['bg'] = '#85BB65'
 # pesos, rubles, yen, and rupees
 def from_usd():
     # convert dollar to pound
-    pound = float(L2_value.get()) * 0.74
+    pound = round((L2_value.get()) * 0.74, 2)
 
     # convert dollar to peso
-    peso = float(L2_value.get()) * 19.77
+    peso = round((L2_value.get()) * 19.77, 2)
 
     # convert dollar to euro
-    euro = float(L2_value.get()) * 0.82
+    euro = round((L2_value.get()) * 0.82, 2)
 
     # convert dollar to ruble
-    ruble = float(L2_value.get()) * 74.12
+    ruble = round((L2_value.get()) * 74.12, 2)
 
     # convert dollar to yen
-    yen = float(L2_value.get()) * 104.16
+    yen = round((L2_value.get()) * 104.16, 2)
 
     # convert dollar to yen
-    rupee = float(L2_value.get()) * 73.80
+    rupee = round((L2_value.get()) * 73.80, 2)
 
     # Enters the converted currency to
     # the text widget
